@@ -33,11 +33,12 @@ const occupations = [
 const hostArray = [];
 
 
-for (let i = 0 ; i < 100 ; i++) {
+for (let i = 0 ; i < 100 && hostArray.length; i++) {
     hostArray.push(new BasicHost(names[Math.floor(Math.random() * names.length)], occupations[[Math.floor(Math.random() * occupations.length)]]));
+    
 }
 
-console.log(hostArray);
+// console.log(hostArray);
 
 
 
