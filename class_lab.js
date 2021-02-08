@@ -33,29 +33,21 @@ const occupations = [
 const hostArray = [];
 
 
-for (let i = 0 ; i < 100 && hostArray.length; i++) {
+for (let i = 0 ; i < 100 ; i++) {
     hostArray.push(new BasicHost(names[Math.floor(Math.random() * names.length)], occupations[[Math.floor(Math.random() * occupations.length)]]));
-    
 }
+
+
+// console.log(hostArray);
+
+// for (let i = 0; i < hostArray.length ; i++ ){
+//    console.log(hostArray[i].saySpecs());
+// }
 
 // console.log(hostArray);
 
 
 
 
-
-
-
-
-const pets = ['dogs', 'cats', 'birds','dog', 'dog']
-
-// let word = pets[Math.floor(Math.random() * pets.length)];
-const hi = "hey there ";
-
-// console.log(word);
-
-// for (let i = 0 ; i < 200 ; i++){
-//     console.log(hi + pets[Math.floor(Math.random() * pets.length)])
-// }
 
 
